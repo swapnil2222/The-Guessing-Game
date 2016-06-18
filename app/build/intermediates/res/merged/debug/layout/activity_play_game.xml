@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp" >
+
+
+        <TextView
+            android:id="@+id/playgame_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginBottom="20dp"
+            android:text="@null"
+            android:paddingBottom="5dp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/choice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:hint="Enter a number"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="@color/input_login"
+            android:textColorHint="@color/input_login_hint" />
+
+
+        <Button
+            android:id="@+id/submit_choice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="#607D8B"
+            android:text="@string/enter_choice"
+            android:textColor="@color/btn_login" />
+
+        <!-- Link to Login Screen -->
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/playgame_summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/playgame_actualNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"
+                android:paddingBottom="5dp"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:id="@+id/playgame_no_of_guesses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"
+                android:paddingBottom="5dp"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:id="@+id/playgame_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold"
+                android:paddingBottom="5dp"
+                android:gravity="center"
+
+                />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
