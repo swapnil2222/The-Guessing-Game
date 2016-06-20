@@ -47,6 +47,7 @@
     <string name="playgame_no_of_guesses">Number of Guess made:</string>
     <string name="playgame_score">Your Score:</string>
     <string name="summary">Summary</string>
+    <string name="start_again">Play Again.!</string>
     <string name="signup">SignUp</string>
 
     <string name="title_activity_about_us">AboutUsActivity</string>

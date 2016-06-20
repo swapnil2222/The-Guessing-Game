@@ -67,6 +67,7 @@ SessionManager manager;
         startActivity(intent);
         finish();
         System.exit(0);
+
     }
 
 

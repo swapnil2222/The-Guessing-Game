@@ -1,5 +1,6 @@
 package com.example.mysqltest;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.util.Log;
@@ -15,10 +16,12 @@ public class PlayGameActivity extends Activity implements View.OnClickListener {
     TextView textmsg;
     EditText getChoice;
     Button submitChoice;
+    Button startAgain;
     TextView summary;
     TextView actualNumberOfGuess;
     TextView actualNumber;
     TextView score;
+
 int RESULT=0;
     int upper;
     int guessNumber;
@@ -26,7 +29,7 @@ int RESULT=0;
     int values;
     int numberDrawn;
     int playgameScore;
-
+String username;
 
 
     @Override
@@ -37,16 +40,19 @@ int RESULT=0;
         textmsg=(TextView)findViewById(R.id.playgame_msg);
         getChoice=(EditText)findViewById(R.id.choice);
         submitChoice=(Button)findViewById(R.id.submit_choice);
+        startAgain=(Button)findViewById(R.id.start_again);
         summary=(TextView)findViewById(R.id.playgame_summary);
         actualNumber=(TextView)findViewById(R.id.playgame_actualNumber);
         actualNumberOfGuess=(TextView)findViewById(R.id.playgame_no_of_guesses);
         score=(TextView)findViewById(R.id.playgame_score);
+        startAgain.setVisibility(View.INVISIBLE);
 
 
         //Now take data from welcome activity
 
         Bundle bundle=getIntent().getExtras();
         String upperLimit=bundle.getString("upperLimit");
+        username=bundle.getString("username");
 
         upper=Integer.parseInt(upperLimit);
         Log.d("Number drawn:",upperLimit);
@@ -64,6 +70,7 @@ int RESULT=0;
 
 
         submitChoice.setOnClickListener(this);
+        startAgain.setOnClickListener(this);
 
 
     }
@@ -75,6 +82,14 @@ int RESULT=0;
 
         switch (view.getId())
         {
+            case R.id.start_again:
+                Intent i=new Intent(PlayGameActivity.this,WelcomeActivity.class);
+                i.putExtra("Username",username);
+                i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                //i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(i);
+                    finish();
+                    break;
             case R.id.submit_choice:
 
                 while(true)
@@ -95,6 +110,9 @@ int RESULT=0;
                     if(numberDrawn==guessNumber)
                     {
                         textmsg.setText("Congratulations, your guess is correct!Guess made:"+counter);
+                        submitChoice.setText("Start Again.!!");
+                        submitChoice.setVisibility(View.GONE);
+
                         RESULT=1;
 
                     break;
@@ -127,6 +145,7 @@ int RESULT=0;
                     actualNumber.setText(playGameActualNumber+""+numberDrawn);
                     String playGameActualGuesses=getResources().getString(R.string.playgame_no_of_guesses);
                     actualNumberOfGuess.setText(playGameActualGuesses+""+counter);
+                    startAgain.setVisibility(View.VISIBLE);
                     String playGameScore=getResources().getString(R.string.playgame_score);
                     if(counter>15)
 

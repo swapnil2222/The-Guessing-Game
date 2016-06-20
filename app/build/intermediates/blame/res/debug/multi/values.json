@@ -203,14 +203,7 @@
                     "endOffset": 887
                 },
                 "from": {
-                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 53,
-                        "startColumn": 4,
-                        "startOffset": 2675,
-                        "endColumn": 71,
-                        "endOffset": 2742
-                    }
+                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -222,14 +215,7 @@
                     "endOffset": 1027
                 },
                 "from": {
-                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 54,
-                        "startColumn": 4,
-                        "startOffset": 2747,
-                        "endColumn": 139,
-                        "endOffset": 2882
-                    }
+                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -241,14 +227,7 @@
                     "endOffset": 1100
                 },
                 "from": {
-                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 55,
-                        "startColumn": 4,
-                        "startOffset": 2887,
-                        "endColumn": 72,
-                        "endOffset": 2955
-                    }
+                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -260,14 +239,7 @@
                     "endOffset": 1172
                 },
                 "from": {
-                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 52,
-                        "startColumn": 4,
-                        "startOffset": 2603,
-                        "endColumn": 71,
-                        "endOffset": 2670
-                    }
+                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -279,14 +251,7 @@
                     "endOffset": 1241
                 },
                 "from": {
-                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 56,
-                        "startColumn": 4,
-                        "startOffset": 2960,
-                        "endColumn": 68,
-                        "endOffset": 3024
-                    }
+                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -298,14 +263,7 @@
                     "endOffset": 1338
                 },
                 "from": {
-                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 57,
-                        "startColumn": 4,
-                        "startOffset": 3029,
-                        "endColumn": 96,
-                        "endOffset": 3121
-                    }
+                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -317,14 +275,7 @@
                     "endOffset": 1412
                 },
                 "from": {
-                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 58,
-                        "startColumn": 4,
-                        "startOffset": 3126,
-                        "endColumn": 73,
-                        "endOffset": 3195
-                    }
+                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -692,20 +643,27 @@
                     "startLine": 55,
                     "startColumn": 4,
                     "startOffset": 3170,
-                    "endColumn": 49,
-                    "endOffset": 3215
+                    "endColumn": 52,
+                    "endOffset": 3218
                 },
                 "from": {
-                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 2492,
+                        "endColumn": 52,
+                        "endOffset": 2540
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 3220,
-                    "endColumn": 57,
-                    "endOffset": 3273
+                    "startOffset": 3223,
+                    "endColumn": 49,
+                    "endOffset": 3268
                 },
                 "from": {
                     "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
@@ -715,9 +673,9 @@
                 "to": {
                     "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 3278,
-                    "endColumn": 41,
-                    "endOffset": 3315
+                    "startOffset": 3273,
+                    "endColumn": 57,
+                    "endOffset": 3326
                 },
                 "from": {
                     "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
@@ -727,9 +685,9 @@
                 "to": {
                     "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 3320,
-                    "endColumn": 43,
-                    "endOffset": 3359
+                    "startOffset": 3331,
+                    "endColumn": 41,
+                    "endOffset": 3368
                 },
                 "from": {
                     "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
@@ -739,28 +697,21 @@
                 "to": {
                     "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 3364,
-                    "endColumn": 67,
-                    "endOffset": 3427
+                    "startOffset": 3373,
+                    "endColumn": 43,
+                    "endOffset": 3412
                 },
                 "from": {
-                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 51,
-                        "startColumn": 4,
-                        "startOffset": 2535,
-                        "endColumn": 67,
-                        "endOffset": 2598
-                    }
+                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 3432,
-                    "endColumn": 68,
-                    "endOffset": 3496
+                    "startOffset": 3417,
+                    "endColumn": 67,
+                    "endOffset": 3480
                 },
                 "from": {
                     "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
@@ -770,9 +721,9 @@
                 "to": {
                     "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 3501,
-                    "endColumn": 69,
-                    "endOffset": 3566
+                    "startOffset": 3485,
+                    "endColumn": 68,
+                    "endOffset": 3549
                 },
                 "from": {
                     "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
@@ -782,9 +733,9 @@
                 "to": {
                     "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 3571,
-                    "endColumn": 71,
-                    "endOffset": 3638
+                    "startOffset": 3554,
+                    "endColumn": 69,
+                    "endOffset": 3619
                 },
                 "from": {
                     "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
@@ -794,9 +745,9 @@
                 "to": {
                     "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 3643,
-                    "endColumn": 66,
-                    "endOffset": 3705
+                    "startOffset": 3624,
+                    "endColumn": 71,
+                    "endOffset": 3691
                 },
                 "from": {
                     "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
@@ -806,9 +757,9 @@
                 "to": {
                     "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 3710,
-                    "endColumn": 55,
-                    "endOffset": 3761
+                    "startOffset": 3696,
+                    "endColumn": 66,
+                    "endOffset": 3758
                 },
                 "from": {
                     "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
@@ -818,9 +769,9 @@
                 "to": {
                     "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 3766,
-                    "endColumn": 43,
-                    "endOffset": 3805
+                    "startOffset": 3763,
+                    "endColumn": 55,
+                    "endOffset": 3814
                 },
                 "from": {
                     "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
@@ -830,8 +781,8 @@
                 "to": {
                     "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 3810,
-                    "endColumn": 52,
+                    "startOffset": 3819,
+                    "endColumn": 43,
                     "endOffset": 3858
                 },
                 "from": {
@@ -843,9 +794,21 @@
                     "startLine": 67,
                     "startColumn": 4,
                     "startOffset": 3863,
-                    "endLine": 73,
+                    "endColumn": 52,
+                    "endOffset": 3911
+                },
+                "from": {
+                    "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 3916,
+                    "endLine": 74,
                     "endColumn": 12,
-                    "endOffset": 4149
+                    "endOffset": 4202
                 },
                 "from": {
                     "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\styles.xml"
@@ -853,12 +816,12 @@
             },
             {
                 "to": {
-                    "startLine": 74,
+                    "startLine": 75,
                     "startColumn": 4,
-                    "startOffset": 4154,
-                    "endLine": 76,
+                    "startOffset": 4207,
+                    "endLine": 77,
                     "endColumn": 12,
-                    "endOffset": 4309
+                    "endOffset": 4362
                 },
                 "from": {
                     "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\styles.xml"
@@ -866,12 +829,12 @@
             },
             {
                 "to": {
-                    "startLine": 77,
+                    "startLine": 78,
                     "startColumn": 4,
-                    "startOffset": 4314,
-                    "endLine": 89,
+                    "startOffset": 4367,
+                    "endLine": 90,
                     "endColumn": 12,
-                    "endOffset": 4936
+                    "endOffset": 4989
                 },
                 "from": {
                     "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\styles.xml"
@@ -879,12 +842,12 @@
             },
             {
                 "to": {
-                    "startLine": 90,
+                    "startLine": 91,
                     "startColumn": 4,
-                    "startOffset": 4941,
-                    "endLine": 102,
+                    "startOffset": 4994,
+                    "endLine": 103,
                     "endColumn": 12,
-                    "endOffset": 5563
+                    "endOffset": 5616
                 },
                 "from": {
                     "file": "C:\\Users\\swapnil\\AndroidStudioProjects\\MySQLTest61\\app\\src\\main\\res\\values\\styles.xml"

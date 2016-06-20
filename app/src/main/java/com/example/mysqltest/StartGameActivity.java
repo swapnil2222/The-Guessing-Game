@@ -14,6 +14,7 @@ TextView guessMsg;
     Button startGame;
     String upperLimit;
     String lowerLimit;
+    String username;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,7 @@ TextView guessMsg;
         //get data from welcome qactivity
         Bundle bundle=getIntent().getExtras();
         lowerLimit=bundle.getString("lowerLimit");
+        username=bundle.getString("username");
         Log.d("lowerLimit:",lowerLimit);
         upperLimit=bundle.getString("upperLimit");
         Integer upper=Integer.parseInt(upperLimit);
@@ -50,6 +52,8 @@ TextView guessMsg;
             Intent i=new Intent(StartGameActivity.this,PlayGameActivity.class);
             i.putExtra("upperLimit",upperLimit);
             i.putExtra("lowerLimit",lowerLimit);
+            i.putExtra("username",username);
+
             startActivity(i);
 
             break;

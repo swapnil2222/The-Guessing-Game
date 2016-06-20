@@ -51,7 +51,8 @@
             android:label="@string/startgame_activity" />
         <activity
             android:name="com.example.mysqltest.PlayGameActivity"
-            android:label="@string/playgame_activity" />
+            android:label="@string/playgame_activity" >
+        </activity>
         <activity
             android:name="com.example.mysqltest.AboutUsActivity"
             android:label="@string/title_activity_about_us" />

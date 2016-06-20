@@ -15,6 +15,7 @@ public class WelcomeActivity extends Activity implements View.OnClickListener {
     SessionManager manager;
     Button range1,range2,range3,range4;
     String upperLimit,lowerLimit;
+    String user;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,9 +27,9 @@ public class WelcomeActivity extends Activity implements View.OnClickListener {
         range3=(Button)findViewById(R.id.range3);
         range4=(Button)findViewById(R.id.range4);
 
-    //To get data from Login and Launcer Activity
+    //To get data from Login and Launcher Activity
         Bundle bundle=getIntent().getExtras();
-            String user=bundle.getString("Username");
+             user=bundle.getString("Username");
 
             if(user==null) {
                 user=bundle.getString("message");
@@ -59,6 +60,7 @@ public class WelcomeActivity extends Activity implements View.OnClickListener {
                 Intent intent=new Intent(WelcomeActivity.this,StartGameActivity.class);
                 intent.putExtra("lowerLimit", lowerLimit);
                 intent.putExtra("upperLimit", upperLimit);
+                intent.putExtra("username",user);
                 startActivity(intent);
 
 
@@ -118,8 +120,14 @@ public class WelcomeActivity extends Activity implements View.OnClickListener {
                 // Exit option clicked.
 
                 manager.setPreference(WelcomeActivity.this, "Status", "0");
-                Toast.makeText(getApplicationContext(), "You have Suucessfully Logout", Toast.LENGTH_LONG).show();
-                finish();
+                Toast.makeText(getApplicationContext(), "You have Successfully Logout", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.addCategory(Intent.CATEGORY_HOME);
+                //intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);//***Change Here***
+                startActivity(intent);
+
+                System.exit(0);
+
 
                 return true;
             case R.id.action_settings:
@@ -129,5 +137,16 @@ public class WelcomeActivity extends Activity implements View.OnClickListener {
                 return super.onOptionsItemSelected(item);
         }
     }
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);//***Change Here***
+        startActivity(intent);
+        finish();
+        System.exit(0);
+
+    }
+
 
 }
