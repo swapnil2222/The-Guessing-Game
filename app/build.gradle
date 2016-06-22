@@ -1,23 +1,35 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'ReleaseKey'
+            keyPassword 'guessthenumber'
+            storeFile file('C:/Users/swapnil/.android/debug.keystore')
+            storePassword 'guessthenumber'
+        }
+    }
     compileSdkVersion 21
     buildToolsVersion "22.0.1"
-
     defaultConfig {
-        applicationId "com.example.mysqltest"
+        applicationId "com.flamingBlade.GueesTheNumber"
         minSdkVersion 8
         targetSdkVersion 21
     }
-
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            debuggable false
         }
+        debug {
+            debuggable false
+
+        }
+
     }
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.android.support:support-v4:21.0.0'
 }

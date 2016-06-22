@@ -56,8 +56,11 @@
     <string name="activity_about_us_description">Simple fun game for guessing the number.Try your luck to find the correct number.</string>
     <string name="activity_about_us_developed_by">Developed By:</string>
     <string name="activity_about_us_owner">Swapnil D. Renge</string>
-    <string name="activity_about_us_owner_info">(T.Y Information Technology Department)</string>
+    <string name="activity_about_us_owner_info">Summer Intern at Flaming Blade IT Solution LLP Pune.(2015-2016)</string>
     <string name="activity_about_us_rights">All rights reserved.</string>
+    <string name="activity_about_us_queries">if you have any queries or suggestions, please write us at
+    </string>
+    <string name="activity_about_us_queries_email">swapnil.flamingblade@gmail.com</string>
 
 
 

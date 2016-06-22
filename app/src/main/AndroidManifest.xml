@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mysqltest"
+    package="com.flamingBlade.GueesTheNumber"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -13,11 +13,12 @@
 
     <application
         android:allowBackup="true"
+
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Login"
+            android:name="com.flamingBlade.GueesTheNumber.Login"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,19 +27,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Register"
+            android:name="com.flamingBlade.GueesTheNumber.Register"
             android:label="@string/app_name" />
         <activity
-            android:name=".AddComment"
-            android:label="@string/app_name" />
-        <activity
-            android:name=".ReadComments"
-            android:label="@string/app_name" />
-        <activity
-            android:name=".WelcomeActivity"
+            android:name="com.flamingBlade.GueesTheNumber.WelcomeActivity"
             android:label="@string/welcome_activity" />
         <activity
-            android:name=".LauncherActivity"
+            android:name="com.flamingBlade.GueesTheNumber.LauncherActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,15 +42,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".StartGameActivity"
+            android:name="com.flamingBlade.GueesTheNumber.StartGameActivity"
             android:label="@string/startgame_activity" />
         <activity
-            android:name=".PlayGameActivity"
+            android:name="com.flamingBlade.GueesTheNumber.PlayGameActivity"
             android:label="@string/playgame_activity">
 
         </activity>
         <activity
-            android:name=".AboutUsActivity"
+            android:name="com.flamingBlade.GueesTheNumber.AboutUsActivity"
             android:label="@string/title_activity_about_us"
             ></activity>
     </application>

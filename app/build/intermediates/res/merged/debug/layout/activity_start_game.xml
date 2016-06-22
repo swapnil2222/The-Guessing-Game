@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.mysqltest.StartGameActivity">
+    tools:context="com.flamingBlade.GueesTheNumber.StartGameActivity">
 
     <TextView
         android:id="@+id/guess_desc_msg"
